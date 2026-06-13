@@ -6,7 +6,6 @@ A complete toolkit for scraping, downloading, and managing YouTube clips. Extrac
 
 This repository provides a set of Python and JavaScript tools to:
 
-- **Scrape clips** from YouTube's clip feed using Selenium
 - **Export clip URLs** from any YouTube page via a browser console script
 - **Download clips** as MP4 files with full metadata (title, timestamps, video ID)
 - **Organize clips** automatically into year/month folders
@@ -14,18 +13,6 @@ This repository provides a set of Python and JavaScript tools to:
 - **Remove duplicate files** based on content hash
 
 ## Scripts
-
-### `Yt-clips.py`
-
-Selenium-based scraper that logs into YouTube and extracts all clips from `https://www.youtube.com/feed/clips`.
-
-```bash
-python Yt-clips.py
-```
-
-Outputs: `youtube_clips.csv`
-
-> **Note**: Requires a Chrome profile with YouTube login. Configure the path in the script.
 
 ### `export-youtube-clips.js`
 
